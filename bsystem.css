@@ -1,0 +1,335 @@
+*{margin: 0;}
+header{
+    margin-top: 40px;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+.lists a{
+    text-decoration: none;
+    color: black;
+    font-size: 18;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.lists{
+    display: flex ;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin-right: 136px;
+}
+li{
+    padding: 10px;
+    
+}
+.name a{
+    color: green;
+    font-size: 21px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    margin-top: px;
+}
+.name{
+    margin-left: 91px;
+}
+.log{
+    color: green;
+    background-color: rgba(178, 34, 34, 0);
+    display: flex;
+    border: none;
+    font-size: 21px;
+}
+.log li{
+color: green;
+}
+.log:hover{
+    opacity: 0.8;
+}
+.b{
+    background-color: green;
+    border-color: green;
+    border-radius: 0.8px;
+    color: white;
+    border-style: solid;
+    height: 50px;
+    width: 120px;
+    font-size: 18;
+}
+.b:hover{
+    background-color: white;
+    color: green;
+    transition: 0.5s;
+    border-color: green;
+    cursor: pointer;
+}
+.lists1{
+    display: flex;
+}
+.lists2{
+    margin-top: -11px;
+}
+.lists1 a:hover{
+    color: green;
+    transition: 0.2s;
+}
+.h1{
+    color: green;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.bg{
+    background-attachment: fixed;
+    background-image: url(https://static.wixstatic.com/media/c837a6_79e400061f574b32abc84eef714afb18~mv2.jpg/v1/fill/w_1259,h_719,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_79e400061f574b32abc84eef714afb18~mv2.jpg);
+    height: 719px;
+    width: 1259px;
+    background-size: cover;
+    margin-top: 140px;
+    margin-bottom: 0px;
+}
+.bgd{
+    position: absolute;
+    margin-top: -106px;
+    height: 340px;
+    width: 950px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 150px;
+    display: flex;
+}
+.border{
+    height: 300px;
+    width: 910px;
+    position: absolute;
+    background-color: white;
+    border: 1.5px green solid;
+    z-index: 2;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+.cool{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 60px;
+    text-align: center;
+    margin-left: 79px;
+    gap: 22px;
+}
+.t1{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+
+}
+.t2{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+
+
+}
+.line{
+    height: 1px;
+    background-color: green;
+    width: 772px;
+    margin-left: -8px;
+}
+.but button{
+    background-color: green;
+    color: white;
+    width: 132px;
+    height: 38.4px;
+    border: none;
+}
+.but button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.foot{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    color: white;
+    background-color:  rgb(3,129,18);
+    font-size: 21px;
+    width: 80%;
+    height: 350px;
+
+
+}
+.menufff a{
+    color: white;
+    font-size: 16px;
+
+
+
+}
+.contfff{
+    font-size: 16px;
+}
+footer{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+}
+
+.message{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    background-color: rgba(188, 188, 188, 0.373);
+    color: green;
+    font-size: 30px;
+    
+}
+.message:hover{
+    cursor: pointer;
+    background-color:rgba(188, 188, 188, 0.673) ;
+}
+.message i{
+    position: absolute;
+    margin-top: 20px;
+margin-left: 20px;
+}
+.footn{
+    display: flex;
+    flex-direction: column;
+}
+.footfoot{
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footfoot p{
+    margin-top: 30px;
+}
+
+.bruh{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    color: white;
+    background-color:  rgb(3,129,18);
+    font-size: 21px;
+    width: 80%;
+    height: 350px;
+margin-top: 40px;
+position: absolute;
+}
+.menuff{
+    font-family: 'Roboto', sans-serif;
+}
+.tradf a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+main,.h1{
+    animation: fadein 3s;
+    }
+    @keyframes fadein {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+    
+
+@media (orientation: portrait){
+    .name{
+        margin-left: 10px;
+    }
+    .lists{
+        display: none;
+        
+    }
+    .name{
+        margin-left: 10px;
+    }
+    .bg{
+        background-attachment: unset;
+        width: 100%;
+        margin: 0;
+        height: 400px;
+        margin-top: 120px;
+    }
+    .bgd{
+        position: relative;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .border{
+        width: 80%;
+        margin-left: 30px;
+    }
+    .cool{
+        margin-left: 2px;
+        width: 100%;
+
+    }
+    .line{
+        width: 90%;
+        margin-left: 15px;
+    }
+    .t1{
+        font-size: 18px;
+    }
+    .t2{
+        font-size: 15px;
+    }
+    .h1{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .bruh{
+        width:100%;
+        flex-direction: column;
+        height: 1500px;
+        gap: 90px;
+        margin-top: 0px;
+    }
+    .foot{
+        width: 100%;
+        gap: 10px;
+        margin-top: 0px;
+    }
+    .footfoot{
+        margin-top: 1150px;
+        z-index: 4;
+    }
+footer{
+    margin-top: 0px;
+}
+main{
+    margin-top: 0px;
+}
+.workt{
+    margin-top: 22px;
+}
+body{
+    overflow-x: hidden;
+}
+}
+    

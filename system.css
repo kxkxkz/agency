@@ -1,0 +1,301 @@
+*{margin: 0; }
+header{
+    margin-top: 40px;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+.lists a{
+    text-decoration: none;
+    color: black;
+    font-size: 18;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.lists{
+    display: flex ;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin-right: 136px;
+}
+li{
+    padding: 10px;
+    
+}
+.name a{
+    color: green;
+    font-size: 21px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    margin-top: px;
+}
+.name{
+    margin-left: 91px;
+}
+.log{
+    color: green;
+    background-color: rgba(178, 34, 34, 0);
+    display: flex;
+    border: none;
+    font-size: 21px;
+}
+.log:hover{
+    opacity: 0.8;
+}
+html{
+    scroll-behavior: smooth;
+}
+.log li{
+color: green;
+}
+.b{
+    background-color: green;
+    border-color: green;
+    border-radius: 0.8px;
+    color: white;
+    border-style: solid;
+    height: 50px;
+    width: 120px;
+    font-size: 18;
+}
+.b:hover{
+    background-color: white;
+    color: green;
+    transition: 0.5s;
+    border-color: green;
+    cursor: pointer;
+}
+.lists1{
+    display: flex;
+}
+.lists2{
+    margin-top: -11px;
+}
+.lists1 a:hover{
+    color: green;
+    transition: 0.2s;
+}
+
+
+
+.workt1{
+    color: rgb(3,129,18);
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    width: 100%;
+
+}
+.workd{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    width: 100%;
+
+
+}
+.workt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+    width: 100%;
+}
+.imgs1{
+    display: flex;
+    gap: 237px;
+    justify-content: center;
+    text-align: center;
+}
+.imgs2{
+    display: flex;
+    gap: 237px;
+    justify-content: center;
+    text-align: center;
+
+}
+.imgs3{
+    display: flex;
+    gap: 237px;
+    justify-content: center;
+    text-align: center;
+
+}
+.imgs4{
+    display: flex;
+    gap: 237px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.gal{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    gap: 140px;
+}
+a img:hover{
+    opacity: 0.8;
+}
+.foot{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    color: white;
+    background-color:  rgb(3,129,18);
+    font-size: 21px;
+    width: 80%;
+    height: 350px;
+
+
+}
+.menufff a{
+    color: white;
+    font-size: 16px;
+
+
+
+}
+.contfff{
+    font-size: 16px;
+}
+footer{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+}
+
+.message{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    background-color: rgba(188, 188, 188, 0.373);
+    color: green;
+    font-size: 30px;
+    
+}
+.message:hover{
+    cursor: pointer;
+    background-color:rgba(188, 188, 188, 0.673) ;
+}
+.message i{
+    position: absolute;
+    margin-top: 20px;
+margin-left: 20px;
+}
+.footn{
+    display: flex;
+    flex-direction: column;
+}
+.footfoot{
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footfoot p{
+    margin-top: 30px;
+}
+
+.bruh{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    color: white;
+    background-color:  rgb(3,129,18);
+    font-size: 21px;
+    width: 80%;
+    height: 350px;
+margin-top: 40px;
+position: absolute;
+}
+.menuff{
+    font-family: 'Roboto', sans-serif;
+}
+.tradf a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+main{
+animation: fadein 3s;
+}
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+body{
+    overflow-x: hidden;
+}
+
+/* pc version end */
+
+@media (orientation: portrait){
+    .name{
+        margin-left: 10px;
+    }
+    .lists{
+        display: none;
+    }
+    .imgs1{
+        flex-direction: column;
+        gap: 0px;
+
+    }
+    .imgs2{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .imgs3{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .imgs4{
+        flex-direction: column;
+        gap: 0px;
+        
+    }
+    .gal{
+        gap: 0px;
+        margin-top: 40px;
+    }
+    img{
+        width: 100%;
+    }
+    .bruh{
+        width:100%;
+        flex-direction: column;
+        height: 1500px;
+        gap: 90px;
+        margin-top: 0px;
+    }
+    .foot{
+        width: 100%;
+        gap: 10px;
+        margin-top: 0px;
+    }
+    .footfoot{
+        margin-top: 1150px;
+        z-index: 4;
+    }
+footer{
+    margin-top: 0px;
+}
+main{
+    margin-top: 0px;
+}
+.workt{
+    margin-top: 22px;
+}
+}

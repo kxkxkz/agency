@@ -1,0 +1,503 @@
+*{margin: 0; }
+header{
+    margin-top: 40px;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+.lists a{
+    text-decoration: none;
+    color: black;
+    font-size: 18;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.lists{
+    display: flex ;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin-right: 136px;
+}
+li{
+    padding: 10px;
+    
+}
+.name a{
+    color: green;
+    font-size: 21px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    margin-top: px;
+}
+.name{
+    margin-left: 91px;
+}
+.log{
+    color: green;
+    background-color: rgba(178, 34, 34, 0);
+    display: flex;
+    border: none;
+    font-size: 21px;
+    
+}
+.log li{
+color: green;
+}
+
+.log:hover{
+    opacity: 0.8;
+}
+.b{
+    background-color: green;
+    border-color: green;
+    border-radius: 0.8px;
+    color: white;
+    border-style: solid;
+    height: 50px;
+    width: 120px;
+    font-size: 18;
+}
+.b:hover{
+    background-color: white;
+    color: green;
+    transition: 0.5s;
+    border-color: green;
+    cursor: pointer;
+}
+.lists1{
+    display: flex;
+}
+.lists2{
+    margin-top: -11px;
+}
+.lists1 a:hover{
+    color: green;
+    transition: 0.2s;
+}
+
+.main1{
+    display: flex;
+    justify-content: center;
+}
+
+.bg{
+    background-attachment: fixed;
+    background-image: url(https://static.wixstatic.com/media/c837a6_135dfe766a0249529808c9960058758b~mv2.jpg/v1/fill/w_987,h_722,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_135dfe766a0249529808c9960058758b~mv2.jpg);
+    width: 1230px;
+    height: 800px;
+    background-size: cover;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.bgt{
+    color: white;
+    font-size: 80px;
+    margin-top: 200px;
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+}
+.bgbb{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.368);
+    justify-content: center;
+    display: flex;
+}
+.bgb{
+    background-color: green;
+    display: flex;
+    height: 106px;
+    width: 1084px;
+    margin-top: 753px;
+    font-size: 30px;
+    color: white;
+    gap: 90px;
+    justify-content: center;
+    font-family: 'Questrial', sans-serif;
+
+}
+.brand,.strategy,.content,.creative{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+}
+.two{
+    width: 1084px;
+    height: 600px;
+    border: 1px green solid;
+    background-color: white;
+    display: flex;
+}
+.img{
+    background-image: url(https://static.wixstatic.com/media/c837a6_62ad470a234c45b696ab1adbdf7b8f20~mv2.jpg/v1/fill/w_611,h_826,al_r,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_62ad470a234c45b696ab1adbdf7b8f20~mv2.jpg);
+    width: 100%;
+    background-size: cover;
+
+}
+.text2{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+}
+.text4{
+    margin-left: 150px;
+    width: 60%;
+    font-size: 21px;
+}
+.name2{
+    margin-left: 150px;
+    font-size: 50px;
+    color: rgb(3,129,18);
+    font-family: 'Questrial', sans-serif;
+}
+.text2 .lists2{
+    margin-left: 100px;
+    margin-top: 0px;
+}
+.text2 .lists2 .b{
+    width: 150px;
+    font-size: 20px;
+    height: 50px;
+    font-family: 'Questrial', sans-serif;
+}
+.main33{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+    margin-top: 100px;
+}
+.othert{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 90px;
+
+}
+.datad,.inn,.cre{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tline1,.tline2{
+    width: 1px;
+    height: 150px;
+    background-color: green;
+}
+.n1{
+    font-size: 60px;
+    color: green;
+    font-family: 'Questrial', sans-serif;
+}
+.n2{
+    font-size: 22px;
+    color: black;
+    font-family: 'Questrial', sans-serif;
+}
+.firstt{
+    font-size: 26px;
+    color: green;
+    font-family: 'Questrial', sans-serif;
+
+}
+.secondd{
+    font-size: 16px;
+    font-family: 'Questrial', sans-serif;
+    line-height: 25px;
+}
+.name4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+.foot{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    color: white;
+    background-color:  rgb(3,129,18);
+    font-size: 21px;
+    width: 80%;
+    height: 350px;
+
+
+}
+.menufff a{
+    color: white;
+    font-size: 16px;
+
+
+
+}
+.contfff{
+    font-size: 16px;
+}
+footer{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+}
+
+.message{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    background-color: rgba(188, 188, 188, 0.373);
+    color: green;
+    font-size: 30px;
+    
+}
+.message:hover{
+    cursor: pointer;
+    background-color:rgba(188, 188, 188, 0.673) ;
+}
+.message i{
+    position: absolute;
+    margin-top: 20px;
+margin-left: 20px;
+}
+.footn{
+    display: flex;
+    flex-direction: column;
+}
+.footfoot{
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footfoot p{
+    margin-top: 30px;
+}
+
+.bruh{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    color: white;
+    background-color:  rgb(3,129,18);
+    font-size: 21px;
+    width: 80%;
+    height: 350px;
+margin-top: 40px;
+position: absolute;
+}
+.menuff{
+    font-family: 'Roboto', sans-serif;
+}
+.tradf a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+body{
+    overflow-x: hidden;
+}
+main{
+    animation: fadein 3s;
+}
+@media (orientation: portrait){
+    .name{
+        margin-left: 10px;
+    }
+    .lists{
+        display: none;
+    }
+    .bg{
+        width: 100%;
+        height: 420px;
+        margin-bottom: 0px;
+        background-attachment: unset;
+        
+    }
+.bgt{
+    font-size: 34px;
+    margin-top: 100px;
+    width: 100%;
+}
+.bgt br{
+    display: none;
+
+}
+.bgb{
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    margin-top: 420px;
+    gap: 0px;  
+}
+.main1{
+    margin-bottom: 300px;
+}
+.brand,.content,.strategy,.creative{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.two{
+    width: 100%;
+    flex-direction: column;
+    margin-bottom:0px;
+    height: 600px;
+}
+.othert{
+    flex-direction: column;
+}
+.n1{
+    font-size: 30px;
+    width: 100%;
+
+}
+.n2{
+    font-size: 16px;
+}
+.img{
+    width: 100%;
+    height:100%;
+
+}
+.main2{
+    height: 600px;
+    margin-bottom: -52px;
+}
+.bruh{
+    width:100%;
+    flex-direction: column;
+    height: 1500px;
+    gap: 90px;
+    margin-top: 0px;
+}
+.foot{
+    width: 100%;
+    gap: 10px;
+    margin-top: 0px;
+}
+.footfoot{
+    margin-top: 1150px;
+    z-index: 4;
+}
+footer{
+margin-top: 0px;
+}
+main{
+margin-top: 0px;
+}
+.workt{
+margin-top: 22px;
+}
+.text4,.name2{
+margin: 0px;
+    display: flex;
+    justify-content: center;
+
+
+}
+main{
+width: 100%;
+}
+.name2{
+    font-size: 28px;
+    width: 60%;
+
+}
+.text4{
+    font-size: 14px;
+    text-align: center;
+}
+.text2 .lists2 .b{
+    width: 125px;
+    font-size: 10px;
+    height: 36px;
+
+}
+.text2 .lists2{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+
+} 
+.text2{
+    height: 100%;
+    width: 100%;
+
+
+}
+.main3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+margin-bottom: 30px;
+
+}
+.othert1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.othert{
+    width: 100%;
+    justify-content: center;
+
+}
+.datad,.inn,.cre,.tline1,.tline2{
+    width:100%;
+}
+.tline1,.tline2{
+    height: 2px;
+
+}
+.firstt{
+    font-size: 20px;
+}
+.secondd{
+    font-size: 14px;
+}
+body{
+    overflow-x: hidden;
+}
+.text2 .lists2 ul{
+    padding: 0px;
+}
+.test,.test1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+}    
